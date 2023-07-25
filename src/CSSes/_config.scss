@@ -12,3 +12,20 @@
 
   font-family: "Manrope", sans-serif;
 }
+
+main {
+  animation: main-anim 1s ease-in-out 0.5s both;
+}
+
+@keyframes main-anim {
+  0% {
+    position: relative;
+    left: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}

@@ -10,11 +10,40 @@
   font-family: "Manrope", sans-serif;
 }
 
+main {
+  animation: main-anim 1s ease-in-out 0.5s both;
+}
+
+@keyframes main-anim {
+  0% {
+    position: relative;
+    left: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
 #shareButton.active {
   color: #fff;
   background-color: var(--desaturated-dark-blue);
 }
 
 #share.active {
+  width: 15rem;
+  opacity: 1;
+  height: auto;
+}
+
+#shareButtonM.active {
+  color: #fff;
+  background-color: var(--desaturated-dark-blue);
+}
+
+#shareM.active {
   display: flex;
+  opacity: 1;
+  right: 0;
 }/*# sourceMappingURL=index.css.map */

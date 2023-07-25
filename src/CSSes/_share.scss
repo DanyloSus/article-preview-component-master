@@ -4,5 +4,18 @@
 }
 
 #share.active {
+  width: 15rem;
+  opacity: 1;
+  height: auto;
+}
+
+#shareButtonM.active {
+  color: #fff;
+  background-color: var(--desaturated-dark-blue);
+}
+
+#shareM.active {
   display: flex;
+  opacity: 1;
+  right: 0;
 }
