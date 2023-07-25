@@ -8,4 +8,13 @@
   --grayish-blue: hsl(212, 23%, 69%);
   --light-grayish-blue: hsl(210, 46%, 95%);
   font-family: "Manrope", sans-serif;
+}
+
+#shareButton.active {
+  color: #fff;
+  background-color: var(--desaturated-dark-blue);
+}
+
+#share.active {
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
